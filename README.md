@@ -149,30 +149,6 @@ Basically, after reading 9 digits, we check what comes next to figure out which 
 
 ---
 
-## Project Structure
-
-```
-nic-dfa-validator/
-│
-├── backend/
-│   ├── dfa.py              # Core DFA implementation
-│   ├── app.py              # Flask REST API
-│   ├── test_cases.py       # Comprehensive test suite
-│   └── requirements.txt    # Python dependencies
-│
-├── frontend/
-│   ├── public/
-│   │   └── index.html      # HTML template
-│   ├── src/
-│   │   ├── App.js          # Main React component
-│   │   ├── App.css         # Styling
-│   │   └── index.js        # React entry point
-│   └── package.json        # Node dependencies
-│
-└── README.md               # This file
-```
-
----
 
 ## Installation & Setup
 
